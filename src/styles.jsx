@@ -28,6 +28,6 @@ export const StyledImage = styled.div`
     }
 `;
 
-export const styledHide = styled.div`
+export const StyledHide = styled.div`
     overflow:hidden;
 `;

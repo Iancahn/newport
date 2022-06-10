@@ -7,28 +7,31 @@ import theracer from '../img/theracer-small.png'
 import goodtimes from '../img/goodtimes-small.png'
 // Animations
 import { motion } from 'framer-motion';
-import { pageAnimation } from '../animation';
+import { pageAnimation, fade, photoAnim, lineAnim } from '../animation';
 
 const OurWork = () => {
     return (
         <StyledWork variants={pageAnimation} initial="hidden" animate="show" exit="exit" style={{ background: '#fff' }}>
+            <StyledFrame1></StyledFrame1>
             <StyledMovie>
-                <h2>The Athlete</h2>
-                <div className="line"></div>
+                <motion.h2 variants={fade}>The Athlete</motion.h2>
+                <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/the-athlete">
-                    <img src={athlete} alt="an athlete running" />
+                    <StyledHide>
+                        <motion.img variants={photoAnim} src={athlete} alt="an athlete running" />
+                    </StyledHide>
                 </Link>
             </StyledMovie>
             <StyledMovie>
                 <h2>The Racer</h2>
-                <div className="line"></div>
+                <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/the-racer">
                     <img src={theracer} alt="a racer driving fast" />
                 </Link>
             </StyledMovie>
             <StyledMovie>
                 <h2>The GoodTimes</h2>
-                <div className="line"></div>
+                <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/good-times">
                     <img src={goodtimes} alt="the old goodtimes" />
                 </Link>
@@ -50,7 +53,7 @@ const StyledMovie = styled.div`
     padding-bottom: 10rem;
     .line{
         height: 0.5rem;
-        background: #ccc;
+        background: #23d997;
         margin-bottom: 3rem;
     }
     img{
@@ -59,5 +62,26 @@ const StyledMovie = styled.div`
         object-fit:cover;
     }
 `;
+
+const StyledHide = styled.div`
+    overflow:hidden;
+`;
+
+// Frame Animation
+const StyledFrame1 = styled(motion.div)`
+    position:fixed;
+    left:0;
+    top:10%;
+    width: 100%;
+    height:100vh;
+    background: #fffebf;
+    z-index: 2;
+`;
+
+const StyledFrame2 = styled(Framed1)`
+    background: #ff8efb;
+`;
+
+const StyledFrame3 = 
 
 export default OurWork;

@@ -39,8 +39,8 @@ const StyledNav = styled.nav`
         list-style:none;
     }
     li{
-        padding-left:1rem;
-        padding-right:1rem;
+        padding-left:3rem;
+        padding-right:3rem;
         position:relative;
     }
     #logo{

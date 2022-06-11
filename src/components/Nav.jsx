@@ -24,6 +24,9 @@ const Nav = () => {
 
 const StyledNav = styled.nav`
     min-height:10vh;
+    position:sticky;
+    top:0;
+    z-index:10;
     display:flex;
     margin:auto;
     justify-content: space-between;

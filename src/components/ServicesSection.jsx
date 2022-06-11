@@ -3,15 +3,18 @@ import React from 'react';
 import clock from '../img/clock.svg';
 import diaphragm from '../img/diaphragm.svg';
 import money from '../img/money.svg';
-import teamwork from '../img/teamwork.svg'
-import home2 from '../img/home2.png'
+import teamwork from '../img/teamwork.svg';
+import home2 from '../img/home2.png';
 // Styled
-import { StyledAbout, StyledDescription, StyledImage, StyledHide } from "../styles";
+import { StyledAbout, StyledDescription, StyledImage } from "../styles";
 import styled from 'styled-components';
+import { useScroll } from './useScroll';
+import { scrollReveal } from '../animation';
 
 const ServicesSection = () => {
+    const [element, controls] = useScroll();
     return (
-        <StyledServices>
+        <StyledServices ref={element} variants={scrollReveal} animate={controls} initial="hidden">
             <StyledDescription>
                 <h2>High <span>quality</span> services</h2>
                 <StyledCards>

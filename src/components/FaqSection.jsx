@@ -3,53 +3,45 @@ import React from 'react';
 import styled from 'styled-components';
 import { StyledAbout, StyledDescription, StyledImage, StyledHide } from "../styles";
 import Toggle from './Toggle';
+import { AnimateSharedLayout } from 'framer-motion';
 
 const FaqSection = () => {
     return (
         <StyledFaq>
-            <h2>Any <span>Questions?</span></h2>
-            <Toggle>
-                <div className="question">
-                    <h4>How Do I Start?</h4>
+            <h2>
+                Any <span>Questions?</span>
+            </h2>
+            <AnimateSharedLayout>
+                <Toggle title="How Do I Start?">
                     <div className="answer">
                         <p>Lorem ipsum dolor sit amet.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum?</p>
                     </div>
-                    <div className="faq-line"></div>
-                </div>
-            </Toggle>
-            <Toggle>
-                <div className="question">
-                    <h4>Daily Schedule</h4>
+                </Toggle>
+                <Toggle title="Daily Schedule">
+                    <div className="question">
+                        <div className="answer">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum?</p>
+                        </div>
+
+                    </div>
+                </Toggle>
+                <Toggle title="Different Payment Methods">
                     <div className="answer">
                         <p>Lorem ipsum dolor sit amet.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum?</p>
                     </div>
-                    <div className="faq-line"></div>
-                </div>
-            </Toggle>
-            <Toggle>
-                <div className="question">
-                    <h4>Different Payment Methods</h4>
+                </Toggle>
+                <Toggle title="What products do I offer">
                     <div className="answer">
                         <p>Lorem ipsum dolor sit amet.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum?</p>
                     </div>
-                    <div className="faq-line"></div>
-                </div>
-            </Toggle>
-            <Toggle>
-                <div className="question">
-                    <h4>What products do I offer</h4>
-                    <div className="answer">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum?</p>
-                    </div>
-                    <div className="faq-line"></div>
-                </div>
-            </Toggle>
+                </Toggle>
+            </AnimateSharedLayout>
         </StyledFaq>
-    )
+    );
 
 }
 

@@ -19,35 +19,13 @@ const ServicesSection = () => {
                 <img src={home2} alt="a high quality camera"></img>
             </StyledImage>
             <StyledDescription2>
-                <h2>High <span>quality</span> services</h2>
+                <h2>A bit about me<span>.</span></h2>
                 <StyledCards>
                     <StyledCard>
-                        <div className="icon">
-                            <img src={clock} alt="a clock icon"></img>
-                            <h3>Efficient</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>For the past 7 years I have been working for myself building websites for small and medium businesses in and around South Africa. I started learning HTML and CSS way back in 2015, but took the easy route with Wordpress. For the past 2 years I decided to get back into actual web development, and it's safe to say I fell in love writing code and solving actual web problems<span>.</span></p>
                     </StyledCard>
                     <StyledCard>
-                        <div className="icon">
-                            <img src={teamwork} alt="a teamwork icon"></img>
-                            <h3>Teamwork</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </StyledCard>
-                    <StyledCard>
-                        <div className="icon">
-                            <img src={diaphragm} alt="a diaphragm icon"></img>
-                            <h3>Diapgragm</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </StyledCard>
-                    <StyledCard>
-                        <div className="icon">
-                            <img src={money} alt="a money icon"></img>
-                            <h3>Affordable</h3>
-                        </div>
-                        <p>Lorem ipsum dolor sit amets.</p>
+                        <p>I would say my best strengths are that I am naturally curious, a self starter and my extensive background in digital marketing. I believe that my background gives me an edge when it comes to project management, UX/graphic design, Wordpress, Webflow, SEO, PPC and more<span>.</span></p>
                     </StyledCard>
                 </StyledCards>
             </StyledDescription2>
@@ -58,24 +36,24 @@ const ServicesSection = () => {
 
 const StyledServices = styled(StyledAbout)`
     h2{
-        padding-bottom: 5rem;
+        padding-bottom: 2rem;
     }
     p{
-        width:70%;
-        padding: 2rem 0rem 4rem 0rem;
+        width:90%;
+        padding: 2rem 0rem 2rem 0rem;
     }
 `;
 
 const StyledCards = styled.div`
-    display:flex;
-    flex-wrap:wrap;
+    display:block;
+
     @media (max-width: 1300px){
         justify-content:center;
     }
 `;
 
 const StyledCard = styled.div`
-    flex-basis: 20rem;
+    flex-basis: 35rem;
     .icon{
         display:flex;
         align-items:center;

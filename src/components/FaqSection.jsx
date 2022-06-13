@@ -71,7 +71,7 @@ const StyledFaq = styled(StyledAbout)`
 
     .icontoggle{
         color:#00C14A;
-        margin-top:0.35rem;
+        margin-top:0.46rem;
         padding-right:1.5rem;
     }
 

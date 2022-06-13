@@ -40,7 +40,6 @@ const MovieDetail = () => {
         </>
     );
 
-
 };
 
 const StyledDetails = styled(motion.div)`

@@ -1,10 +1,18 @@
 //Import Images
 import tesla from './img/tesla-small.jpg';
-import goodtimes from './img/goodtimes-small.png';
-import theracer from './img/theracer-small.png';
 import tesla2 from './img/tesla2.jpg';
-import goodtimes2 from './img/good-times2.jpg';
-import theracer2 from './img/the-racer2.jpg';
+import google from './img/google-small.jpg';
+import google2 from './img/google2.jpg';
+import music from './img/music-small.jpg';
+import music2 from './img/music2.jpg';
+import front from './img/front-small.jpg';
+import front2 from './img/front2.jpg';
+import truth from './img/truth-small.jpg';
+import truth2 from './img/truth2.jpg';
+import todolist from './img/todolist-small.jpg';
+import todolist2 from './img/todolist2.jpg';
+
+
 // Test
 import html from './img/html-icon.png'
 
@@ -28,9 +36,9 @@ export const MovieState = () => {
         },
         {
             title: 'Pay Per Click Calculator',
-            mainImg: goodtimes,
+            mainImg: google,
             url: '/work/ppc-calculator',
-            secondaryImg: goodtimes2,
+            secondaryImg: google2,
             awards: [
                 {
                     title: 'Truly A masterpiece',
@@ -51,9 +59,9 @@ export const MovieState = () => {
         },
         {
             title: 'Magical Music Player',
-            mainImg: goodtimes,
+            mainImg: music,
             url: '/work/music-player',
-            secondaryImg: goodtimes2,
+            secondaryImg: music2,
             awards: [
                 {
                     title: 'Truly A masterpiece',
@@ -74,9 +82,9 @@ export const MovieState = () => {
         },
         {
             title: 'Google Front Test',
-            mainImg: theracer,
+            mainImg: front,
             url: '/work/google-test',
-            secondaryImg: theracer2,
+            secondaryImg: front2,
             awards: [
                 {
                     title: 'Truly A masterpiece',
@@ -97,9 +105,9 @@ export const MovieState = () => {
         },
         {
             title: 'Twitter Clone',
-            mainImg: theracer,
+            mainImg: truth,
             url: '/work/not-truth',
-            secondaryImg: theracer2,
+            secondaryImg: truth2,
             awards: [
                 {
                     title: 'Truly A masterpiece',
@@ -120,9 +128,9 @@ export const MovieState = () => {
         },
         {
             title: 'My To Do List',
-            mainImg: theracer,
+            mainImg: todolist,
             url: '/work/to-do-list',
-            secondaryImg: theracer2,
+            secondaryImg: todolist2,
             awards: [
                 {
                     title: 'Truly A masterpiece',

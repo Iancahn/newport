@@ -3,8 +3,11 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 // Images
 import tesla from '../img/tesla-small.jpg'
-import theracer from '../img/theracer-small.png'
-import goodtimes from '../img/goodtimes-small.png'
+import google from '../img/google-small.jpg'
+import music from '../img/music-small.jpg'
+import front from '../img/front-small.jpg'
+import truth from '../img/truth-small.jpg'
+import todolist from '../img/todolist-small.jpg'
 // Animations
 import { motion } from 'framer-motion';
 import { pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer } from '../animation';
@@ -14,6 +17,9 @@ import ScrollTop from '../components/ScrollTop';
 const OurWork = () => {
     const [element, controls] = useScroll();
     const [element2, controls2] = useScroll();
+    const [element3, controls3] = useScroll();
+    const [element4, controls4] = useScroll();
+    const [element5, controls5] = useScroll();
     return (
         <StyledWork variants={pageAnimation} initial="hidden" animate="show" exit="exit" style={{ background: '#fff' }}>
             <motion.div variants={sliderContainer}>
@@ -35,35 +41,35 @@ const OurWork = () => {
                 <h2>PayPerClick Calculator</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/ppc-calculator">
-                    <img src={theracer} alt="a racer driving fast" />
+                    <motion.img variants={photoAnim} src={google} alt="a racer driving fast" />
                 </Link>
             </StyledMovie>
             <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
                 <h2>Magical Music Player</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/music-player">
-                    <img src={goodtimes} alt="the old goodtimes" />
+                    <img src={music} alt="the old goodtimes" />
                 </Link>
             </StyledMovie>
-            <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
+            <StyledMovie ref={element3} variants={fade} animate={controls3} initial="hidden">
                 <h2>Google Front test</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/google-test">
-                    <img src={goodtimes} alt="the old goodtimes" />
+                    <img src={front} alt="the old goodtimes" />
                 </Link>
             </StyledMovie>
-            <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
+            <StyledMovie ref={element4} variants={fade} animate={controls4} initial="hidden">
                 <h2>Not Truth/Twitter Clone</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/not-truth">
-                    <img src={goodtimes} alt="the old goodtimes" />
+                    <img src={truth} alt="the old goodtimes" />
                 </Link>
             </StyledMovie>
-            <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
+            <StyledMovie ref={element5} variants={fade} animate={controls5} initial="hidden">
                 <h2>My to do list</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                 <Link to="/work/to-do-list">
-                    <img src={goodtimes} alt="the old goodtimes" />
+                    <img src={todolist} alt="the old goodtimes" />
                 </Link>
             </StyledMovie>
             <ScrollTop />

@@ -11,8 +11,6 @@ import truth from './img/truth-small.jpg';
 import truth2 from './img/truth2.jpg';
 import todolist from './img/todolist-small.jpg';
 import todolist2 from './img/todolist2.jpg';
-
-
 // Test
 import html from './img/html-icon.png'
 

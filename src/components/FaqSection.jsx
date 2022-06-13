@@ -64,6 +64,17 @@ const StyledFaq = styled(StyledAbout)`
         margin: 2rem 0rem;
         width: 100%;
     }
+
+    .dropdown{
+        display:flex;
+    }
+
+    .icontoggle{
+        color:#00C14A;
+        margin-top:0.35rem;
+        padding-right:1.5rem;
+    }
+
     .question{
         padding: 3rem 0rem;
         cursor: pointer;

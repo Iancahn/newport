@@ -9,19 +9,19 @@ const Nav = () => {
     const { pathname } = useLocation();
     return (
         <StyledNav>
-            <h1><Link id="logo" to="/">Capture</Link></h1>
+            <h1><Link id="logo" to="/">Ian Cahn</Link></h1>
             <ul>
                 <li>
-                    <Link to="/">1. About Us</Link>
-                    <StyledLine transition={{ duration: 0.75 }} innitial={{ width: '0%' }} animate={{ width: pathname === '/' ? '50%' : '0%' }} />
+                    <Link to="/">1. About Me</Link>
+                    <StyledLine transition={{ duration: 0.75 }} innitial={{ width: '0%' }} animate={{ width: pathname === '/' ? '52%' : '0%' }} />
                 </li>
                 <li>
-                    <Link to="/work">2. Our Work</Link>
-                    <StyledLine transition={{ duration: 0.75 }} innitial={{ width: '0%' }} animate={{ width: pathname === '/work' ? '50%' : '0%' }} />
+                    <Link to="/work">2. My Work</Link>
+                    <StyledLine transition={{ duration: 0.75 }} innitial={{ width: '0%' }} animate={{ width: pathname === '/work' ? '52%' : '0%' }} />
                 </li>
                 <li>
-                    <Link to="/contact">3. Contact Us</Link>
-                    <StyledLine transition={{ duration: 0.75 }} innitial={{ width: '0%' }} animate={{ width: pathname === '/contact' ? '50%' : '0%' }} />
+                    <Link to="/contact">3. Contact Me</Link>
+                    <StyledLine transition={{ duration: 0.75 }} innitial={{ width: '0%' }} animate={{ width: pathname === '/contact' ? '52%' : '0%' }} />
                 </li>
             </ul>
         </StyledNav>
@@ -38,7 +38,8 @@ const StyledNav = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding:1rem 10rem;
-    background: #282828;
+    background: #211E24;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 3px;
     a{
         color:white;
         text-decoration: none;
@@ -48,13 +49,14 @@ const StyledNav = styled.nav`
         list-style:none;
     }
     li{
+        font-size:1.2rem;
         padding-left:3rem;
         padding-right:3rem;
         position:relative;
     }
     #logo{
-        font-size:1.8rem;
-        font-family:'Lobster', cursive;
+        font-size:3.3rem;
+        font-family: 'Permanent Marker', cursive;
         font-weight: lighter;
     }
     @media (max-width: 1300px){
@@ -74,11 +76,12 @@ const StyledNav = styled.nav`
 
 const StyledLine = styled(motion.div)`
     height: 0.3rem;
-    background: #23d997;
+    background: #00C14A;
     width:0%;
     position:absolute;
-    bottom: -78%;
-    left: 26%;
+    bottom: -60%;
+    left: 25%;
+    border-radius:5px;
     @media (max-width: 1300px)  {
         left: 0%;
     }

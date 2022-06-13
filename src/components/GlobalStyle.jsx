@@ -17,14 +17,19 @@ html{
    }
 }
  body{
-     font-family:'Inter', sans-serif;
-     background: #1b1b1b;
+     font-family:'Poppins', sans-serif;
+     background: #181818;
      overflow-x:hidden;
  }
 
-h2{
-        font-weight: lighter;
+ h1{
+        font-weight: 700;
         font-size:4rem;
+    }
+
+h2{
+        font-weight: 400;
+        font-size:3.5rem;
     }
 h3{
         color:white;
@@ -35,10 +40,11 @@ h4{
     }
 span{
     font-weight:bold;
-    color:#23d997;
+    color:#00C14A;
 }
 p{
-        padding: 3rem 0rem;
+        padding-top: 1.5rem;
+        padding-bottom:3rem;
         color:#ccc;
         font-size:1.4rem;
         line-height:150%;
@@ -50,18 +56,16 @@ button{
     font-size:1.1rem;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 3px solid #23d997;
+    border: 3px solid #00C14A;
     background: transparent;
     color:white;
     transition: all 0.5s ease;
     &:hover{
-        background-color: #23d997;
+        background-color: #00C14A;
         color:white;
     }
 
 }
-
-
 `;
 
 export default Globalstyle;

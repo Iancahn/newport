@@ -15,17 +15,14 @@ const AboutSection = () => {
             <StyledDescription>
                 <motion.div>
                     <StyledHide>
-                        <motion.h2 variants={titleAnim}>I work to make</motion.h2>
+                        <motion.h1 variants={titleAnim}>Hello, I am <span>Ian Cahn</span>,</motion.h1>
                     </StyledHide>
                     <StyledHide>
-                        <motion.h2 variants={titleAnim}>your <span>dreams</span> come</motion.h2>
-                    </StyledHide>
-                    <StyledHide>
-                        <motion.h2 variants={titleAnim}>true.</motion.h2>
+                        <motion.h1 variants={titleAnim}>a Front End Developer<span>.</span></motion.h1>
                     </StyledHide>
                 </motion.div>
-                <motion.p variants={fade}>Contact us for any photography or videography ideas that you have. We have professionals with amazing skills.</motion.p>
-                <motion.button variants={fade}>Contact Us</motion.button>
+                <motion.p variants={fade}>I have over 7 years of web design experience, with the past 2 years seriously focusing on improving my Front End Dev Stack.</motion.p>
+                <motion.button variants={fade}>Contact Me</motion.button>
             </StyledDescription>
             <StyledImage>
                 <motion.img src={home1} alt='Guy with a camera' variants={photoAnim} inital="hidden" animate="show"></motion.img>

@@ -12,12 +12,12 @@ const FaqSection = () => {
     return (
         <StyledFaq variants={scrollReveal} ref={element} animate={controls} initial="hidden">
             <h2>
-                Any <span>Questions?</span>
+                Any Questions?
             </h2>
             <AnimateSharedLayout>
                 <Toggle title="How Do I Start?">
                     <div className="answer">
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Jaco IS 'N GOIEIE GFX DESINGER' ipsum dolor sit amet.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum?</p>
                     </div>
                 </Toggle>
@@ -54,8 +54,9 @@ const StyledFaq = styled(StyledAbout)`
         display:block;
     }
     h2{
+        color:#00C14A;
         padding-bottom:2rem;
-        font-weight:lighter;
+        font-weight:400;
     }
     .faq-line{
         background:#ccc;

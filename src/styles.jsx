@@ -21,7 +21,22 @@ export const StyledDescription = styled.div`
     padding-right: 5rem;
     z-index:2;
     h2{
-        font-weight: lighter;
+        font-weight: 400;
+            }
+    @media (max-width: 1300px){
+        padding:0;
+        button{
+            margin: 2rem 0rem 5rem 0rem;
+        }        
+    }
+`;
+
+export const StyledDescription2 = styled.div`
+    flex:1;
+    padding-left: 5rem;
+    z-index:2;
+    h2{
+        font-weight: 400;
             }
     @media (max-width: 1300px){
         padding:0;
@@ -39,6 +54,7 @@ export const StyledImage = styled.div`
         width: 100%;
         height:80vh;
         object-fit:cover;
+        border-radius:8px;
     }
 `;
 

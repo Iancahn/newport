@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 // Images
-import athlete from '../img/athlete-small.png'
+import tesla from '../img/tesla-small.jpg'
 import theracer from '../img/theracer-small.png'
 import goodtimes from '../img/goodtimes-small.png'
 // Animations
@@ -23,25 +23,46 @@ const OurWork = () => {
                 <StyledFrame4 variants={slider}></StyledFrame4>
             </motion.div>
             <StyledMovie>
-                <motion.h2 variants={fade}>The Athlete</motion.h2>
+                <motion.h2 variants={fade}>The Tesla Clone</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
-                <Link to="/work/the-athlete">
+                <Link to="/work/tesla-clone">
                     <StyledHide>
-                        <motion.img variants={photoAnim} src={athlete} alt="an athlete running" />
+                        <motion.img variants={photoAnim} src={tesla} alt="a Tesla car driving" />
                     </StyledHide>
                 </Link>
             </StyledMovie>
             <StyledMovie ref={element} variants={fade} animate={controls} initial="hidden">
-                <h2>The Racer</h2>
+                <h2>PayPerClick Calculator</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
-                <Link to="/work/the-racer">
+                <Link to="/work/ppc-calculator">
                     <img src={theracer} alt="a racer driving fast" />
                 </Link>
             </StyledMovie>
             <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
-                <h2>The GoodTimes</h2>
+                <h2>Magical Music Player</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
-                <Link to="/work/good-times">
+                <Link to="/work/music-player">
+                    <img src={goodtimes} alt="the old goodtimes" />
+                </Link>
+            </StyledMovie>
+            <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
+                <h2>Google Front test</h2>
+                <motion.div variants={lineAnim} className="line"></motion.div>
+                <Link to="/work/google-test">
+                    <img src={goodtimes} alt="the old goodtimes" />
+                </Link>
+            </StyledMovie>
+            <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
+                <h2>Not Truth/Twitter Clone</h2>
+                <motion.div variants={lineAnim} className="line"></motion.div>
+                <Link to="/work/not-truth">
+                    <img src={goodtimes} alt="the old goodtimes" />
+                </Link>
+            </StyledMovie>
+            <StyledMovie ref={element2} variants={fade} animate={controls2} initial="hidden">
+                <h2>My to do list</h2>
+                <motion.div variants={lineAnim} className="line"></motion.div>
+                <Link to="/work/to-do-list">
                     <img src={goodtimes} alt="the old goodtimes" />
                 </Link>
             </StyledMovie>
@@ -67,13 +88,14 @@ const StyledMovie = styled(motion.div)`
     padding-bottom: 10rem;
     .line{
         height: 0.5rem;
-        background: #23d997;
+        background:  #00C14A;
         margin-bottom: 3rem;
     }
     img{
         width: 100%;
         height: 70vh;
         object-fit:cover;
+        border-radius:8px;
     }
 `;
 

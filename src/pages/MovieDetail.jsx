@@ -25,7 +25,7 @@ const MovieDetail = () => {
                 <StyledDetails variants={pageAnimation} initial="hidden" animate="show" exit="exit">
                     <StyledHeadline>
                         <h2>{movie.title}</h2>
-                        <img src={movie.mainImg} alt="movie" />
+                        <img src={movie.mainImg} alt="Ian project" />
                     </StyledHeadline>
                     <StyledAwards>
                         {movie.awards.map((award) => (
@@ -48,12 +48,12 @@ const StyledDetails = styled(motion.div)`
 `
 
 const StyledHeadline = styled.div`
-    min-height:90vh;
-    padding-top:20vh;
+    min-height:98vh;
+    padding-top:28vh;
     position:relative;
     h2{
         position:absolute;
-        top: 10%;
+        top: 15%;
         left: 50%;
         transform: translate(-50%, 10%);
     }
@@ -65,9 +65,9 @@ const StyledHeadline = styled.div`
 `
 
 const StyledAwards = styled.div`
-    min-height:80vh;
+    min-height:60vh;
     display:flex;
-    margin: 5rem 10rem;
+    margin: 5rem 6rem;
     align-items: center;
     justify-content: space-around;
     @media (max-width: 1300px){
@@ -82,8 +82,8 @@ const StyledAward = styled.div`
         font-size:2rem;
     }
     .line{
-        width: 100%;
-        background: #23d997;
+        width: 30%;
+        background: #00C14A;
         height: 0.5rem;
         margin: 1rem 0rem;
     }
@@ -102,7 +102,7 @@ const StyledImageDisplay = styled.div`
 `
 
 // Award Component
-const Award = ({ title, description }) => {
+const Award = ({ title, description, skillslogo }) => {
     return (
         <StyledAward>
             <h3>{title}</h3>

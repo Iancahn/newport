@@ -18,19 +18,19 @@ const ContactUs = () => {
                 <StyledHide2>
                     <StyledSocial variants={titleAnim}>
                         <StyledCircle />
-                        <h2>Send Us A Message</h2>
+                        <h2><a className="contactlink" href="mailto:iancahn@live.com">Send Me An Email</a></h2>
                     </StyledSocial>
                 </StyledHide2>
                 <StyledHide2>
                     <StyledSocial variants={titleAnim}>
                         <StyledCircle />
-                        <h2>Send An Email</h2>
+                        <h2><a className="contactlink" href="tel:+27824392825">Give Me A Call</a></h2>
                     </StyledSocial>
                 </StyledHide2>
                 <StyledHide2>
                     <StyledSocial variants={titleAnim}>
                         <StyledCircle />
-                        <h2>Our Social Media</h2>
+                        <h2><a className="contactlink" href="https://www.linkedin.com/in/ian-cahn-801328184/" target="_blank">Connect on LinkedIn</a></h2>
                     </StyledSocial>
                 </StyledHide2>
             </div>
@@ -41,7 +41,7 @@ const ContactUs = () => {
 
 const StyledContact = styled(motion.div)`
     padding: 5rem 10rem;
-    color: #353535;
+    color: #181818;
     min-height: 90vh;
     @media (max-width: 1300px){
         padding:2rem;
@@ -65,7 +65,7 @@ const StyledCircle = styled.div`
     border-radius:50%;
     width: 3rem;
     height: 3rem;
-    background: #353535;
+    background: #00C14A;
 `;
 
 const StyledSocial = styled(motion.div)`

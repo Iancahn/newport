@@ -87,7 +87,7 @@ button{
     font-size: 0.6rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
-    color: #181818
+    color: #181818;
 }
 
 .techused{
@@ -96,6 +96,15 @@ button{
 
 .techusedlogos{
     padding-top:2rem;
+}
+
+.contactlink{
+    color:#181818;
+    text-decoration: none;
+}
+
+.contactlink:hover{
+    color:#00C14A;
 }
 
 `;

@@ -15,13 +15,13 @@ const FaqSection = () => {
                 Any Questions?
             </h2>
             <AnimateSharedLayout>
-                <Toggle title="How Do I Start?">
+                <Toggle title="How Do We Start?">
                     <div className="answer">
                         <p>Jaco IS 'N GOIEIE GFX DESINGER' ipsum dolor sit amet.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, illum?</p>
                     </div>
                 </Toggle>
-                <Toggle title="Daily Schedule">
+                <Toggle title="My Daily Schedule">
                     <div className="question">
                         <div className="answer">
                             <p>Lorem ipsum dolor sit amet.</p>

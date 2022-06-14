@@ -24,7 +24,7 @@ export const MovieState = () => {
             url: '/work/tesla-clone',
             awards: [
                 {
-                    title: 'Why I built it:',
+                    title: 'Why I built the project:',
                     description:
                         '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
                     skillslogo: html,

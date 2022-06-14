@@ -25,7 +25,6 @@ const ServicesSection = () => {
                     </StyledCard>
                 </StyledCards>
             </StyledDescription2>
-
         </StyledServices>
     );
 }

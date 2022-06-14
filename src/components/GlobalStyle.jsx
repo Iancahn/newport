@@ -28,9 +28,10 @@ html{
     }
 
 h2{
-        font-weight: 400;
-        font-size:3.5rem;
+    font-weight: 400;
+    font-size:3.5rem;
     }
+
 h3{
         color:white;
     }
@@ -66,6 +67,29 @@ button{
     }
 
 }
+
+.icon-container {  
+    min-width:90vw;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.column4 {
+    padding:50px;
+    float: left;
+    width: 25%;
+}
+
+.footer {
+    background-color: #00c14a;
+    text-align: center;
+    font-size: 0.6rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    color: #181818
+}
+
 `;
 
 export default Globalstyle;

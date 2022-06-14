@@ -1,13 +1,12 @@
 import React from 'react';
 import home1 from '../img/home1.jpg';
 import Wave from "./Wave";
+
 // Styled
 import { StyledAbout, StyledDescription, StyledImage, StyledHide } from "../styles";
 // Framer Motion
 import { motion } from 'framer-motion';
 import { titleAnim, fade, photoAnim } from '../animation';
-
-
 const AboutSection = () => {
 
     return (

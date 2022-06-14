@@ -6,7 +6,7 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import OurWork from './pages/OurWork';
 import Nav from './components/Nav';
-import MovieDetail from './pages/MovieDetail';
+import ProjectDetail from './pages/ProjectDetail';
 // Router
 import { Routes, Route, useLocation } from 'react-router-dom';
 // Animation
@@ -23,7 +23,7 @@ function App() {
         <Routes location={location} key={location.pathname}>
           <Route path='/' exact element={<AboutUs />} />
           <Route path='/work' exact element={<OurWork />} />
-          <Route path='/work/:id' exact element={<MovieDetail />} />
+          <Route path='/work/:id' exact element={<ProjectDetail />} />
           <Route path='/contact' exact element={<ContactUs />} />
         </Routes>
       </AnimatePresence>

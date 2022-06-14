@@ -20,7 +20,7 @@ import nextJs from './img/nextjs-icon.png'
 import mySql from './img/mysql-icon.png'
 
 
-export const MovieState = () => {
+export const ProjectState = () => {
     return [
         {
             title: 'My Tesla Clone',

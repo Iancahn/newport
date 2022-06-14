@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { useLocation } from 'react-router-dom';
-import { MovieState } from '../movieState';
+import { ProjectState } from '../projectState';
 import { wrapHandler } from 'framer-motion';
 // Animations
 import { motion } from 'framer-motion';
 import { pageAnimation } from '../animation';
 
-const MovieDetail = () => {
+const ProjectDetail = () => {
     const url = useLocation();
-    const [movies, setMovies] = useState(MovieState);
+    const [movies, setMovies] = useState(ProjectState);
     const [movie, setMovie] = useState(null);
 
     // UseEffect
@@ -128,4 +128,4 @@ const Award = ({ title, description, skillslogo1, skillslogo2, skillslogo3, skil
     )
 }
 
-export default MovieDetail;
+export default ProjectDetail;

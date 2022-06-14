@@ -1,5 +1,5 @@
 import React from 'react';
-import home1 from '../img/home1.png';
+import home1 from '../img/home1.jpg';
 import Wave from "./Wave";
 // Styled
 import { StyledAbout, StyledDescription, StyledImage, StyledHide } from "../styles";

@@ -13,6 +13,11 @@ import todolist from './img/todolist-small.jpg';
 import todolist2 from './img/todolist2.jpg';
 // Test
 import html from './img/html-icon.png'
+import css from './img/css-icon.png'
+import javascript from './img/javascript-icon.png'
+import react from './img/react-icon.png'
+import nextJs from './img/nextjs-icon.png'
+import mySql from './img/mysql-icon.png'
 
 
 export const MovieState = () => {
@@ -27,7 +32,12 @@ export const MovieState = () => {
                     title: 'Why I built the project:',
                     description:
                         '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
-                    skillslogo: html,
+                    skillslogo1: html,
+                    skillslogo2: css,
+                    skillslogo3: javascript,
+                    skillslogo4: react,
+                    skillslogo5: nextJs,
+                    skillslogo6: mySql,
                 },
 
             ],
@@ -41,18 +51,12 @@ export const MovieState = () => {
                 {
                     title: 'Truly A masterpiece',
                     description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
+                    skillslogo3: javascript,
+                    skillslogo4: react,
+                    skillslogo5: nextJs,
                 },
-                {
-                    title: 'Fresh look on a brutal sport.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
-                {
-                    title: 'It’s okay lmao.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
+
             ],
         },
         {
@@ -64,18 +68,12 @@ export const MovieState = () => {
                 {
                     title: 'Truly A masterpiece',
                     description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
+                    skillslogo3: javascript,
+                    skillslogo4: react,
+                    skillslogo5: nextJs,
                 },
-                {
-                    title: 'Fresh look on a brutal sport.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
-                {
-                    title: 'It’s okay lmao.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
+
             ],
         },
         {
@@ -87,22 +85,16 @@ export const MovieState = () => {
                 {
                     title: 'Truly A masterpiece',
                     description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
+                    skillslogo3: javascript,
+                    skillslogo4: react,
+                    skillslogo5: nextJs,
                 },
-                {
-                    title: 'Fresh look on a brutal sport.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
-                {
-                    title: 'It’s okay lmao.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
+
             ],
         },
         {
-            title: 'Twitter Clone',
+            title: 'My Twitter Clone',
             mainImg: truth,
             url: '/work/not-truth',
             secondaryImg: truth2,
@@ -110,18 +102,12 @@ export const MovieState = () => {
                 {
                     title: 'Truly A masterpiece',
                     description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
+                    skillslogo3: javascript,
+                    skillslogo4: react,
+                    skillslogo5: nextJs,
                 },
-                {
-                    title: 'Fresh look on a brutal sport.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
-                {
-                    title: 'It’s okay lmao.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
+
             ],
         },
         {
@@ -133,18 +119,12 @@ export const MovieState = () => {
                 {
                     title: 'Truly A masterpiece',
                     description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
+                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
+                    skillslogo3: javascript,
+                    skillslogo4: react,
+                    skillslogo5: nextJs,
                 },
-                {
-                    title: 'Fresh look on a brutal sport.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
-                {
-                    title: 'It’s okay lmao.',
-                    description:
-                        '“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”',
-                },
+
             ],
         },
     ];

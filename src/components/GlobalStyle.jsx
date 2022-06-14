@@ -90,6 +90,14 @@ button{
     color: #181818
 }
 
+.techused{
+    margin-top:2rem;
+}
+
+.techusedlogos{
+    padding-top:2rem;
+}
+
 `;
 
 export default Globalstyle;

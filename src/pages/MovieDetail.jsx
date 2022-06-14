@@ -29,7 +29,7 @@ const MovieDetail = () => {
                     </StyledHeadline>
                     <StyledAwards>
                         {movie.awards.map((award) => (
-                            <Award title={award.title} description={award.description} key={award.title} />
+                            <Award title={award.title} description={award.description} key={award.title} skillslogo1={award.skillslogo1} skillslogo2={award.skillslogo2} skillslogo3={award.skillslogo3} skillslogo4={award.skillslogo4} skillslogo5={award.skillslogo5} skillslogo6={award.skillslogo6} />
                         ))}
                     </StyledAwards>
                     <StyledImageDisplay>
@@ -86,6 +86,12 @@ const StyledAward = styled.div`
         height: 0.5rem;
         margin: 1rem 0rem;
     }
+    .line2{
+        width: 20%;
+        background: #00C14A;
+        height: 0.5rem;
+        margin: 1rem 0rem;
+    }
     p{
         padding:2rem 0rem;
     }
@@ -101,12 +107,22 @@ const StyledImageDisplay = styled.div`
 `
 
 // Award Component
-const Award = ({ title, description, skillslogo }) => {
+const Award = ({ title, description, skillslogo1, skillslogo2, skillslogo3, skillslogo4, skillslogo5, skillslogo6 }) => {
     return (
         <StyledAward>
             <h3>{title}</h3>
             <div className="line"></div>
             <p>{description}</p>
+            <h3 className="techused">Technology Used:</h3>
+            <div className="line2"></div>
+            <div className="techusedlogos">
+                <img src={skillslogo1} />
+                <img src={skillslogo2} />
+                <img src={skillslogo3} />
+                <img src={skillslogo4} />
+                <img src={skillslogo5} />
+                <img src={skillslogo6} />
+            </div>
         </StyledAward>
 
     )

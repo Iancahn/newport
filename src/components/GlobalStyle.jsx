@@ -65,7 +65,23 @@ button{
         background-color: #00C14A;
         color:white;
     }
+}
 
+.projectbutton{
+    font-family:'Inter', sans-serif;
+    font-weight:bold;
+    font-size:1.1rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius:15px;
+    background: #00C14A;
+    color:white;
+    transition: all 0.5s ease;
+    margin-top:1.5rem;
+    &:hover{
+        background-color: #00C14A;
+        color:white;
+}
 }
 
 .icon-container {  

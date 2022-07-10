@@ -11,14 +11,6 @@ import truth from './img/truth-small.jpg';
 import truth2 from './img/truth2.jpg';
 import todolist from './img/todolist-small.jpg';
 import todolist2 from './img/todolist2.jpg';
-// Test
-import html from './img/html-icon.png'
-import css from './img/css-icon.png'
-import javascript from './img/javascript-icon.png'
-import react from './img/react-icon.png'
-import nextJs from './img/nextjs-icon.png'
-import mySql from './img/mysql-icon.png'
-
 
 export const ProjectState = () => {
     return [
@@ -32,12 +24,8 @@ export const ProjectState = () => {
                     title: 'Why I built the project:',
                     description:
                         '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
-                    skillslogo1: html,
-                    skillslogo2: css,
-                    skillslogo3: javascript,
-                    skillslogo4: react,
-                    skillslogo5: nextJs,
-                    skillslogo6: mySql,
+                    codeStack: "HTML, CSS and JavaScript",
+                    viewProject: 'https://www.pixelbypixel.io',
                 },
 
             ],
@@ -52,9 +40,8 @@ export const ProjectState = () => {
                     title: 'Truly A masterpiece',
                     description:
                         '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
-                    skillslogo3: javascript,
-                    skillslogo4: react,
-                    skillslogo5: nextJs,
+                    codeStack: "HTML, CSS and JavaScript",
+                    viewProject: 'https://www.pixelbypixel.io',
                 },
 
             ],
@@ -68,10 +55,9 @@ export const ProjectState = () => {
                 {
                     title: 'Truly A masterpiece',
                     description:
-                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
-                    skillslogo3: javascript,
-                    skillslogo4: react,
-                    skillslogo5: nextJs,
+                        '“To further improve my code logic skills, I built a Music Player with HTML, CSS and React. What I learned most was Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
+                    codeStack: "HTML, CSS and React",
+                    viewProject: 'https://www.pixelbypixel.io',
                 },
 
             ],
@@ -86,9 +72,6 @@ export const ProjectState = () => {
                     title: 'Truly A masterpiece',
                     description:
                         '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
-                    skillslogo3: javascript,
-                    skillslogo4: react,
-                    skillslogo5: nextJs,
                 },
 
             ],
@@ -103,9 +86,6 @@ export const ProjectState = () => {
                     title: 'Truly A masterpiece',
                     description:
                         '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
-                    skillslogo3: javascript,
-                    skillslogo4: react,
-                    skillslogo5: nextJs,
                 },
 
             ],
@@ -120,9 +100,6 @@ export const ProjectState = () => {
                     title: 'Truly A masterpiece',
                     description:
                         '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
-                    skillslogo3: javascript,
-                    skillslogo4: react,
-                    skillslogo5: nextJs,
                 },
 
             ],

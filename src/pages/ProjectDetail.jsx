@@ -27,7 +27,7 @@ const ProjectDetail = () => {
                     </StyledHeadline>
                     <StyledAwards>
                         {project.awards.map((award) => (
-                            <Award title={award.title} description={award.description} key={award.title} skillslogo1={award.skillslogo1} skillslogo2={award.skillslogo2} skillslogo3={award.skillslogo3} skillslogo4={award.skillslogo4} skillslogo5={award.skillslogo5} skillslogo6={award.skillslogo6} />
+                            <Award title={award.title} description={award.description} key={award.title} codeStack={award.codeStack} viewProject={award.viewProject} />
                         ))}
                     </StyledAwards>
                     <StyledImageDisplay>
@@ -78,13 +78,13 @@ const StyledAward = styled.div`
     h3{
         font-size:2rem;
     }
-    .line{
+    .line {
         width: 30%;
         background: #00C14A;
         height: 0.5rem;
         margin: 1rem 0rem;
     }
-    .line2{
+    .line2, .line3 {
         width: 20%;
         background: #00C14A;
         height: 0.5rem;
@@ -105,7 +105,7 @@ const StyledImageDisplay = styled.div`
 `
 
 // Award Component
-const Award = ({ title, description, skillslogo1, skillslogo2, skillslogo3, skillslogo4, skillslogo5, skillslogo6 }) => {
+const Award = ({ title, description, codeStack, viewProject }) => {
     return (
         <StyledAward>
             <h3>{title}</h3>
@@ -113,14 +113,12 @@ const Award = ({ title, description, skillslogo1, skillslogo2, skillslogo3, skil
             <p>{description}</p>
             <h3 className="techused">Technology Used:</h3>
             <div className="line2"></div>
-            <div className="techusedlogos">
-                <img src={skillslogo1} alt="The HTML logo" />
-                <img src={skillslogo2} alt="The CSS logo" />
-                <img src={skillslogo3} alt="The JavaScript logo" />
-                <img src={skillslogo4} alt="The React logo" />
-                <img src={skillslogo5} alt="The NextJs logo" />
-                <img src={skillslogo6} alt="The MySQL logo" />
+            <div>
+                <p>{codeStack}</p>
             </div>
+            <h3>View Project below:</h3>
+            <div className="line3"></div>
+            <button className="projectbutton" onClick={viewProject}>Go to Project</button>
         </StyledAward>
 
     )

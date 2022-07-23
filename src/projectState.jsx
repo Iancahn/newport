@@ -23,7 +23,7 @@ export const ProjectState = () => {
                 {
                     title: 'Why I built the project:',
                     description:
-                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptate soluta ut incidunt nihil quae quisquam dolorem, odit harum consequatur, omnis voluptas nisi doloribus eligendi adipisci eveniet quo. Suscipit distinctio doloremque mollitia temporibus ut asperiores voluptates sequi dolor aperiam, nobis voluptatem eaque illum aliquam aliquid molestiae eveniet! Fuga, possimus? Eveniet.”',
+                        '“To further improve my UX skills, I rebuilt the new Tesla homepage with basic HTML, CSS and Vanilla Javascript. The top 3 things I learned from this project was how much faster multiline editing allows you to build projects. Secondly it was how you could convert objects straight into an array with array functions. Last but not least was the scroll snapping. The main obstacle to overcome was figuring out how we can know where the user is on the page, and which direction they decide to scroll in. I used the window.pageYOffset as a base, and created an if statement with a lastknown postion, where the statement would scroll up if current was greater than lastPos, and down if current was less than lastPos. Now that I built a Tesla website, I just have to wait for my free Tesla to arrive”',
                     codeStack: "HTML, CSS and JavaScript",
                     viewProject: 'https://www.pixelbypixel.io',
                 },

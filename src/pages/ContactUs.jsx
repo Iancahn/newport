@@ -30,6 +30,12 @@ const ContactUs = () => {
                 <StyledHide2>
                     <StyledSocial variants={titleAnim}>
                         <StyledCircle />
+                        <h2><a className="contactlink" href="https://github.com/Iancahn" target="_blank">View My GitHub</a></h2>
+                    </StyledSocial>
+                </StyledHide2>
+                <StyledHide2>
+                    <StyledSocial variants={titleAnim}>
+                        <StyledCircle />
                         <h2><a className="contactlink" href="https://www.linkedin.com/in/ian-cahn-801328184/" target="_blank">Connect on LinkedIn</a></h2>
                     </StyledSocial>
                 </StyledHide2>

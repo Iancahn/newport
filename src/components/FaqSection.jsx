@@ -15,32 +15,31 @@ const FaqSection = () => {
                 Any Questions?
             </h2>
             <AnimateSharedLayout>
-                <Toggle title="How Do We Start?">
+                <Toggle title="Why am I looking for work?">
                     <div className="answer">
-                        <p>I am currently working on a freelancing schedule, so I would need a 30 day notice period.</p>
-                        <p>This will give me enough time to wrap up old projects and start the onboarding process.</p>
+                        <p>This is probably the question that most people think of first, and it has a short easy answer.</p>
+                        <p>Working in digital marketing has become stale, and I want to become part of a larger team.</p>
+                    </div>
+                </Toggle>
+                <Toggle title="Remote and Office Work">
+                    <div className="answer">
+                        <p>One of my main reasons I for moving into DEV, was to work as part of a team on larger projects.</p>
+                        <p>So working from some cool office with a bunch of like minded invididuals sounds kinda fun.</p>
                     </div>
                 </Toggle>
                 <Toggle title="My Schedule and Timezone">
                     <div className="question">
                         <div className="answer">
                             <p>I am currently living in the GMT+2 timezone, but my lifestyle is super flexible.</p>
-                            <p>My day to day typically starts at 09h00, where I spend the first four hours on the most important task.</p>
-                            <p>After I completed the critical work, I tend to small things or admin. I am also a fan of doing some work later at night.</p>
+                            <p>My day to day typically starts at 09h00, where I spend the first four hours on client critial work and important tasks.</p>
+                            <p>After I completed the critical work, I tend to finish small things or admin. I am also a fan of doing some work later at night.</p>
                         </div>
-
-                    </div>
-                </Toggle>
-                <Toggle title="Remote and Office Work">
-                    <div className="answer">
-                        <p>One of my main reasons I for moving into DEV, was to work as part of a team on larger projects.</p>
-                        <p>I have been working remotely for the past 7 years, but if there is a great team office, that would be cool too.</p>
                     </div>
                 </Toggle>
                 <Toggle title="My office setup and gear">
                     <div className="answer">
-                        <p>Productivity requires fast internet, so I installed a 500Down/200Up Fiber line.</p>
-                        <p>My PC is on the higher end, equiped with a recent i5, 32GB of Ram and fancy NVME hard drives.</p>
+                        <p>Productivity requires fast internet, so I installed a 500Down/500Up Fiber line.</p>
+                        <p>My PC is on the higher end, equiped with a recent Gen9-i5, 32GB of Ram and fancy NVME hard drives.</p>
                     </div>
                 </Toggle>
             </AnimateSharedLayout>

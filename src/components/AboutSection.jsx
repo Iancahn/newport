@@ -20,7 +20,7 @@ const AboutSection = () => {
                         <motion.h1 variants={titleAnim}>a Front End Developer<span>.</span></motion.h1>
                     </StyledHide>
                 </motion.div>
-                <motion.p variants={fade}>I have over 7 years of web design experience, with the past 2 years seriously focusing on improving my Front End Dev Stack.</motion.p>
+                <motion.p variants={fade}>For the past 7 years I have been working as a digital marketing freelancer, and for the past 2 years I have started to seriously focus on improving my Front End Dev Stack.</motion.p>
                 <motion.button variants={fade}>Contact Me</motion.button>
             </StyledDescription>
             <StyledImage>

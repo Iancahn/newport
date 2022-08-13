@@ -113,8 +113,11 @@ const Award = ({ title, description, codeStack, viewProject }) => {
             <p>{description}</p>
             <h3 className="techused">Technology Used:</h3>
             <div className="line2"></div>
-            <div>
-                <p>{codeStack}</p>
+            <div className="stackImages">
+                {codeStack.map((stackImage) => (
+                    <img src={stackImage} className='stackImage' />
+                ))}
+
             </div>
             <h3>View Project below:</h3>
             <div className="line3"></div>

@@ -3,7 +3,7 @@ import React from 'react';
 import bootstrap from '../img/bootstrap-icon.png';
 import tailwind from '../img/tailwind-icon.png';
 import nextjs from '../img/nextjs-icon.png';
-import mysql from '../img/mysql-icon.png';
+import sass from '../img/sass-icon.png';
 // Framer Motion
 import { motion } from 'framer-motion';
 import { useScroll } from './useScroll';
@@ -33,7 +33,7 @@ function IconList2() {
                 </div>
                 <div className="column4">
                     <div>
-                        <img src={mysql} alt="Just a MySQL icon"></img>
+                        <img src={sass} alt="Just a SaSS icon"></img>
                     </div>
                 </div>
             </div>

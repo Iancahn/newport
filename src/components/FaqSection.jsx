@@ -18,13 +18,13 @@ const FaqSection = () => {
                 <Toggle title="Why am I looking for work?">
                     <div className="answer">
                         <p>This is probably the question that most people think of first, and it has a short easy answer.</p>
-                        <p>Working in digital marketing has become stale, and I want to become part of a larger team.</p>
+                        <p>Working in digital marketing has become stale for me, and I want to become part of a larger team.</p>
                     </div>
                 </Toggle>
                 <Toggle title="Remote and Office Work">
                     <div className="answer">
                         <p>One of my main reasons I for moving into DEV, was to work as part of a team on larger projects.</p>
-                        <p>So working from some cool office with a bunch of like minded invididuals sounds kinda fun.</p>
+                        <p>So working from some cool office with a bunch of like minded invididuals sounds kinda fun, but I love remote too.</p>
                     </div>
                 </Toggle>
                 <Toggle title="My Schedule and Timezone">

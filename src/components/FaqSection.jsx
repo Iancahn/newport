@@ -15,7 +15,7 @@ const FaqSection = () => {
                 Any Questions?
             </h2>
             <AnimateSharedLayout>
-                <Toggle title="Why am I looking for work?">
+                <Toggle title="Why am I looking for project work?">
                     <div className="answer">
                         <p>This is probably the question that most people think of first, and it has a short easy answer.</p>
                         <p>Working in digital marketing has become stale for me, and I want to become part of a larger team.</p>

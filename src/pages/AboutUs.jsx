@@ -19,8 +19,8 @@ const AboutUs = () => {
             <IconList2 />
             <ServicesSection />
             <FaqSection />
-            <ScrollTop />
             <Footer />
+            <ScrollTop />
         </motion.div>
 
     )

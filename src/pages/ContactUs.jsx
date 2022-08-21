@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { pageAnimation, titleAnim } from '../animation';
 import styled from 'styled-components';
 import ScrollTop from '../components/ScrollTop';
+//Page Components
+import Footer from '../components/Footer';
 
 // Remember to use link here to point towards socials
 const ContactUs = () => {
@@ -40,6 +42,7 @@ const ContactUs = () => {
                     </StyledSocial>
                 </StyledHide2>
             </div>
+            <Footer />
             <ScrollTop />
         </StyledContact>
     )

@@ -7,6 +7,7 @@ import { StyledAbout, StyledDescription, StyledImage, StyledHide } from "../styl
 // Framer Motion
 import { motion } from 'framer-motion';
 import { titleAnim, fade, photoAnim } from '../animation';
+
 const AboutSection = () => {
 
     return (

@@ -5,8 +5,9 @@ import Globalstyle from './components/GlobalStyle';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import OurWork from './pages/OurWork';
-import Nav from './components/Nav';
 import ProjectDetail from './pages/ProjectDetail';
+// Import Components
+import Nav from './components/Nav';
 // Router
 import { Routes, Route, useLocation } from 'react-router-dom';
 // Animation

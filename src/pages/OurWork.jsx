@@ -8,6 +8,8 @@ import music from '../img/music-small.jpg'
 import front from '../img/front-small.jpg'
 import truth from '../img/truth-small.jpg'
 import todolist from '../img/todolist-small.jpg'
+//Page Components
+import Footer from '../components/Footer';
 // Animations
 import { motion } from 'framer-motion';
 import { pageAnimation, fade, photoAnim, lineAnim, slider, sliderContainer } from '../animation';
@@ -72,6 +74,7 @@ const OurWork = () => {
                     <img src={todolist} alt="the old goodtimes" />
                 </Link>
             </StyledMovie>
+            <Footer />
             <ScrollTop />
         </StyledWork>
 

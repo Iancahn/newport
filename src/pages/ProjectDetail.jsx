@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { useLocation } from 'react-router-dom';
 import { ProjectState } from '../projectState';
+//Page Components
+import Footer from '../components/Footer';
 // Animations
 import { motion } from 'framer-motion';
 import { pageAnimation } from '../animation';
@@ -33,7 +35,9 @@ const ProjectDetail = () => {
                     <StyledImageDisplay>
                         <img src={project.secondaryImg} alt='' />
                     </StyledImageDisplay>
+                    <Footer />
                 </StyledDetails>
+
             )}
         </>
     );

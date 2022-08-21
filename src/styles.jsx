@@ -16,6 +16,23 @@ export const StyledAbout = styled(motion.div)`
     }
 `;
 
+export const StyledFooter = styled(motion.div)`
+    text-transform: uppercase;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    color:white;
+    background-color: #00C14A;
+    p{padding-top:1.5rem;
+    padding-bottom:1.5rem}
+    @media (max-width: 1300px){
+        display:block;
+        padding: 2rem 2rem;
+        text-align:center;
+    }
+`;
+
 export const StyledDescription = styled.div`
     flex:1;
     padding-right: 5rem;
